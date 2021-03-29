@@ -1,0 +1,7 @@
+.idea
+venv
+Plan
+__pycache__/
+bot_python.session
+identifier.sqlite
+bd.db
