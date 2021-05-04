@@ -1,7 +1,6 @@
-.idea
-venv
-Plan
+.idea/
+sql/identifier.sqlite
+others/
+python_bot/bot_python.session
+venv/
 __pycache__/
-bot_python.session
-identifier.sqlite
-bd.db

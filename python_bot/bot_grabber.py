@@ -25,7 +25,7 @@ def get_post(client, message):
             last_id = a[0]
 
         # перессылка поста на модерку
-        message.forward(bd.get_moder(), as_copy=True)
+        message.forward(bd.get_moder())
         client.send_message(bd.get_moder(), last_id)
 
 
