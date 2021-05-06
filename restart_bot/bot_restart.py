@@ -15,8 +15,8 @@ from sql.sql import SQL
 
 restart_session = Commands()
 
-TOKEN = os.getenv('TOKEN')
-USER_ID = os.getenv('USER_ID')
+TOKEN = os.getenv('1839003045:AAGpM9LWo9n9JcZ1oSjTa4pFTD67BVUqM30')
+USER_ID = os.getenv('1063517116')
 
 db = SQL('../bd.db')
 bot = Bot(token=TOKEN)
