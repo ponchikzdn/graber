@@ -24,9 +24,9 @@ storage = MemoryStorage()
 dp = Dispatcher(bot, storage=storage)
 
 keyboard = InlineKeyboardMarkup(row_width=3)
-donor_k = InlineKeyboardButton(text='Донор', callback_data="donor")
-moder_k = InlineKeyboardButton(text='Модер', callback_data="moder")
-channel_k = InlineKeyboardButton(text='Канал', callback_data="channel")
+donor_k = InlineKeyboardButton(text='@mudak ,', callback_data="donor")
+moder_k = InlineKeyboardButton(text='@perfectmoder', callback_data="moder")
+channel_k = InlineKeyboardButton(text='@perfekt_world', callback_data="channel")
 keyboard.add(donor_k, moder_k, channel_k)
 
 donor_keyboard = InlineKeyboardMarkup(row_width=2)
